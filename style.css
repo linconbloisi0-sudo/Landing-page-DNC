@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+#logo{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior1{
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior2{
+    margin-left: 170px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+#menu-superior{
+    background-image: url(imagens/imagen-menusuperior.svg);
+    color: #FFFFFF;
+}
+
+#menu-infomacional{
+    background-color: #eaece5;
+    padding: 40px 0px 35px 170px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+  padding-right: 15px;
+}
+
+.texto-infomacinal{
+    display: flex;
+    align-items: center;
+    color: #122235;
+}
+
+#secao-video{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #FFFFFF;
+}
+
+#video{
+    margin: 55px 0px 55px 170px;
+}
+#titulovideo{
+    color: #247ba0;
+    margin-top: 65px;
+}
+
+#textovideo{
+    color: #38383380;
+}
+#carrossel{
+    background-color: #247ba0;
+    padding: 50px;
+}
+#titulo-carrossel{
+    color: #eaece5;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#foto-carrossel{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#Samantha{
+    display: none;
+}
+
+.seta{
+    margin-top: 110%;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.seta:hover{
+    transform: translateY(-7px)
+}
+
+#formulario{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#titulo-formulario{
+    color: #383838;
+    font-size: 25px;
+    margin: 25px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaeae6;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+
+button{
+    background-color: #247ba0;
+    width: 250px;
+    height: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #0d1f4da0;
+}
+
+button:hover{
+    transform: translateY(-5px)
+
+}
